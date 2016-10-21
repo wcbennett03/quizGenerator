@@ -1,4 +1,4 @@
-
+# stores file name into a veriable
 my $fileName = $ARGV[0];
 
 open(DATA, $fileName) or die "Couldn't open file file.txt, $!";
